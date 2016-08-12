@@ -1,0 +1,48 @@
+html,
+body {
+  background-color: #ffffff;
+  height: 100%;
+}
+.hidden-dn {
+  display: none;
+}
+.visuallyhidden {
+  opacity: 0;
+}
+nav .brand-logo {
+  padding-left: 10px;
+}
+.nav-header {
+  background-color: #042A2B !important;
+}
+.nav-menu-options {
+  float: right;
+}
+.nav-tabs-menu {
+  height: 64px;
+}
+.nav-tabs-menu .tab {
+  height: 64px;
+}
+.nav-tabs-menu .indicator {
+  background-color: white;
+}
+.nav-tabs-menu .tab a {
+  padding-top: 8px;
+  color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  .nav-search-box {
+    width: 90%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .nav-search-box {
+    width: 50%;
+    float: left;
+  }
+  .nav-menu-options {
+    width: 50%;
+  }
+}

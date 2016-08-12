@@ -1,0 +1,78 @@
+
+@color_base: #ffffff; 
+@nav_color: #042A2B; 
+@nav_tab_color: #26a69a; 
+
+html, body {
+	background-color: @color_base ; 
+	height: 100%;
+}
+
+.hidden-dn {
+  display: none;
+}
+
+.visuallyhidden {
+  opacity: 0;
+}
+
+nav .brand-logo {
+ 	padding-left: 10px;
+}
+
+.nav-header {
+	background-color: @nav_color !important ;
+}
+
+.nav-menu-options {
+	float: right;
+}
+
+.nav-tabs-menu {
+	height: 64px;
+}
+
+.nav-tabs-menu .tab {
+	height: 64px;
+}
+
+.nav-tabs-menu .indicator{
+	background-color: white;
+}
+
+.nav-tabs-menu .tab a{
+	padding-top: 8px;
+	color: #fff;
+}
+
+@media only screen and (max-width : 992px) {
+	.nav-search-box {
+		width: 90% ;	
+		float: left ;
+	}	
+	.nav-menu-options {		
+	}
+}
+@media only screen and (min-width : 993px) {
+	.nav-search-box {
+		width: 50% ;
+		float: left;		
+	}	
+	.nav-menu-options {
+		width: 50%
+	}	
+}
+/*
+.nav-tabs {
+	height: 40px !important;
+	line-height: 40px !important;
+}
+.nav_tabs a , .nav_tabs label i{
+	line-height: 40px !important;	
+}
+.nav-tabs > .nav-wrapper {
+	background-color: @nav_tab_color !important ;	
+}
+.nav-tabs form .input-field{
+	height: 40px;
+}*/
