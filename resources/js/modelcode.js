@@ -6,8 +6,8 @@
  */
 
 
-function VisLayer() {
-	this.name      = "" ;
+function VisLayer(name) {
+	this.name      = name ;//"visLayer" ;
 	this.opacity   = 1  ;	
 	this.type	   = "" ;
 }
@@ -26,7 +26,7 @@ VisLayer.prototype.layerInfo = function() {
  *
  */ 
 function ModelLayer() {
-	VisLayer.call(this) ;
+	VisLayer.call(this,"modellayer") ;
  	// The wms source
 	this.source    = "" ; 
 	this.units	   = "" ;	
@@ -35,7 +35,14 @@ function ModelLayer() {
 ModelLayer.prototype = Object.create(VisLayer.prototype) ;
 ModelLayer.constructor = ModelLayer ;
 
+myvislayer = new VisLayer("vislayer") ; 
+mymodellayer = new ModelLayer() ; 
 
+console.log (myvislayer.name) ; 
+console.log (mymodellayer.name) ; 
+//mymodellayer.name = "ModelLayer" ; 
+//console.log (myvislayer.name) ; 
+//console.log (mymodellayer.name) ; 
 /*
  *
  * 

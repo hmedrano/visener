@@ -1,0 +1,29 @@
+https://cic-pem.cicese.mx/erddap/griddap/NEMO_GOLFO12_545b_8b49_b090.largePng?
+sossheig[(2016-08-22T00:00:00Z)][(15.6):(30.54087)][(-97.7):(-81.0)]&
+.draw=surface&
+.vars=longitude%7Clatitude%7Csossheig&
+.colorBar=%7C%7C%7C0.1%7C4%7C&
+.bgColor=0xffccccff
+
+FUNCIONA!!   ERDDAP code gen
+------------
+https://cic-pem.cicese.mx/erddap/wms/NEMO_GOLFO12_dde9_130c_9625/request?EXCEPTIONS=INIMAGE&VERSION=1.3.0&SRS=EPSG:4326&LAYERS=NEMO_GOLFO12_dde9_130c_9625:votemper&TIME=2016-08-22T00:00:00Z&ELEVATION=-2.0&TRANSPARENT=true&BGCOLOR=0x808080&FORMAT=image/png&SERVICE=WMS&REQUEST=GetMap&STYLES=&BBOX=-99.7875,29.66931925,-83.850572,45.60624725&WIDTH=256&HEIGHT=256
+------------
+TEST  (sin TIME)
+https://cic-pem.cicese.mx/erddap/wms/NEMO_GOLFO12_dde9_130c_9625/request?EXCEPTIONS=INIMAGE&VERSION=1.3.0&SRS=EPSG:4326&LAYERS=NEMO_GOLFO12_dde9_130c_9625:votemper&ELEVATION=-2.0&TRANSPARENT=true&BGCOLOR=0x808080&FORMAT=image/png&SERVICE=WMS&REQUEST=GetMap&STYLES=&BBOX=-99.7875,29.66931925,-83.850572,45.60624725&WIDTH=256&HEIGHT=256
+
+------------
+TEST  (sin TIME, sin elevation)
+https://cic-pem.cicese.mx/erddap/wms/NEMO_GOLFO12_dde9_130c_9625/request?EXCEPTIONS=INIMAGE&VERSION=1.3.0&SRS=EPSG:4326&LAYERS=NEMO_GOLFO12_dde9_130c_9625:votemper&TRANSPARENT=true&BGCOLOR=0x808080&FORMAT=image/png&SERVICE=WMS&REQUEST=GetMap&STYLES=&BBOX=-99.7875,29.66931925,-83.850572,45.60624725&WIDTH=256&HEIGHT=256
+------------
+
+
+
+
+https://cic-pem.cicese.mx/erddap/wms/NEMO_GOLFO12_dde9_130c_9625/request?EXCEPTIONS=INIMAGE&VERSION=1.3.0&SRS=EPSG:4326&LAYERS=Nations&BGCOLOR=0x808080&FORMAT=image/png&TRANSPARENT=true&SERVICE=WMS&REQUEST=GetMap&STYLES=&BBOX=-99.7875,13.73239125,-83.850572,29.66931925&WIDTH=256&HEIGHT=256
+
+https://cic-pem.cicese.mx/erddap/wms/NEMO_GOLFO12_dde9_130c_9625/request?EXCEPTIONS=INIMAGE&amp;VERSION=1.3.0&amp;SRS=EPSG:4326&amp;LAYERS=NEMO_GOLFO12_dde9_130c_9625:votemper&amp;TIME=2016-08-22T00:00:00Z&amp;ELEVATION=-2.0&amp;TRANSPARENT=true&amp;BGCOLOR=0x808080&amp;FORMAT=image/png&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;STYLES=&amp;BBOX=-99.7875,13.73239125,-83.850572,29.66931925&amp;WIDTH=256&amp;HEIGHT=256
+
+https://cic-pem.cicese.mx/erddap/wms/NEMO_GOLFO12_dde9_130c_9625/request?&service=WMS&request=GetMap&layers=NEMO_GOLFO12_dde9_130c_9625:votemper&styles=&format=image/png&transparent=true&version=1.1.1&height=256&width=256&srs=EPSG:4326&bbox=-9392582.035682458,1878516.4071364924,-8766409.899970293,2504688.542848655
+
+https://cic-pem.cicese.mx/erddap/wms/NEMO_GOLFO12_dde9_130c_9625/request?&service=WMS&request=GetMap&layers=NEMO_GOLFO12_dde9_130c_9625:votemper&styles=&format=image/png&transparent=true&version=1.1.1&height=256&width=256&srs=EPSG:4326&bbox=-90,21.94304553343818,-84.375,27.059125784374068

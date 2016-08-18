@@ -4523,8 +4523,10 @@ L.GridLayer = L.Layer.extend({
 		L.DomUtil.addClass(tile, 'leaflet-tile');
 
 		var tileSize = this.getTileSize();
-		tile.style.width = tileSize.x + 'px';
-		tile.style.height = tileSize.y + 'px';
+		// Se agrega este +1 para en el tamaño para evitar esa linea negra entre
+		// mosaicos, corregido gracias a https://github.com/Leaflet/Leaflet/issues/3575
+		tile.style.width = tileSize.x + 1 + 'px';
+		tile.style.height = tileSize.y + 1 + 'px';
 
 		tile.onselectstart = L.Util.falseFn;
 		tile.onmousemove = L.Util.falseFn;

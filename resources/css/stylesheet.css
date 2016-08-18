@@ -1,13 +1,35 @@
 html,
 body {
   background-color: #ffffff;
-  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 .hidden-dn {
   display: none;
 }
 .visuallyhidden {
   opacity: 0;
+}
+#wrapper {
+  padding-bottom: 150px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#main-timeline-container {
+  margin-bottom: -150px;
+  height: 150px;
+  overflow: hidden;
+}
+#main-map-container {
+  min-height: 100%;
+}
+#header {
+  background-color: red;
 }
 nav .brand-logo {
   padding-left: 10px;
@@ -30,6 +52,24 @@ nav .brand-logo {
 .nav-tabs-menu .tab a {
   padding-top: 8px;
   color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  #wrapper {
+    padding-top: 56px;
+  }
+  #header {
+    margin-top: -56px;
+    height: 56px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  #wrapper {
+    padding-top: 128px;
+  }
+  #header {
+    margin-top: -128px;
+    height: 128px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .nav-search-box {
